@@ -1,0 +1,151 @@
+
+ html, body {
+        min-height: 100vh;
+        min-width:  100vw;
+        overflow-x: hidden;
+        background-image: url(../img/Rectangle\ 3.png);
+        background-repeat: no-repeat;
+        
+
+    }
+body{
+     background: linear-gradient(90deg,
+      rgba(213, 32, 71, 0.8) 0%, 
+      rgba(238, 61, 27, 0.8) 100%);
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: white;
+    
+
+    }
+
+.header_container{
+      display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 58px;
+
+}
+   
+ .logo_icon{
+    margin-left: 167px;
+ }
+ .logo_image{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    
+    
+
+   
+ }
+ .menu_{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 114px;
+    position: absolute;
+ }
+.nav__link{
+    color: #ffffff; 
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+ 
+}
+.meny_right{
+    margin-right: 28px;
+    display: inline-block;
+
+}
+.img_flag{
+    margin-right: 10px;
+}
+
+.language{
+    margin-right: 10px;
+}
+
+.vector{
+    margin-right: 21px;
+}
+.login_button{
+    margin-right: 196px;
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    width: 100px;
+    background: transparent;
+    font-size: 14px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    font-family: Lato;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.login_button:hover{
+    border: 3px solid white;
+    
+}
+
+
+.tittle{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 72px;
+    line-height: 86px;
+    text-align: center;
+    margin-top: 150px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+
+}
+.subtittle{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    max-width: 540px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 150%;
+    
+    margin: 40px auto 0;
+
+}
+
+.btn{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+    margin-top: 39px;
+    text-align: center;
+    margin-left: 610px;
+    color: #ED4C5C;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    
+    
+}
+.btn:hover{
+    background:transparent;
+    color: white;
+    transform: scale(1.2);
+    
+}
+
