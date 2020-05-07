@@ -6,8 +6,9 @@
         background-image: url(../img/Bg.png);
         background-repeat: no-repeat;
         background-size: cover;
-        
+
     }
+    
 body{
     
     font-family: 'Lato', sans-serif;
@@ -91,6 +92,7 @@ body{
     text-transform: uppercase;
     color: #ffffff;
 }
+
 .login_button:hover{
     border: 3px solid white;
     
@@ -140,9 +142,9 @@ body{
     
 }
 .btn:hover{
-    background:transparent;
-    color: white;
-    transform: scale(1.2);
-    
+     
+     background:transparent;
+     color: white;
+   
 }
 
